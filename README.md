@@ -5,7 +5,9 @@ First, read carefully [this post!](https://maersk-analytics.atlassian.net/wiki/s
 Connect to [vault.maersk-digital.net!](https://vault.maersk-digital.net)
 
 Sign in with *OIDC provider*; you can also do that through your cli tool 
-with the command: `vault login -method=oidc`
+with the command: 
+
+`vault login -method=oidc`
 
 This will prompt you to `vault.maersk-digital.net/ui/vault/secrets` where you must
 be able to see an entry for each resource group that you are a member of. If the 
