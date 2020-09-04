@@ -5,7 +5,7 @@ First, read carefully [this post](https://maersk-analytics.atlassian.net/wiki/sp
 Connect to [vault.maersk-digital.net](https://vault.maersk-digital.net) and "Sign in with OIDC provider". 
 You can also do that through your cli tool with the commands:
 
-`export VAULT_ADDR=https://vault.maersk-digital.net`
+`export VAULT_ADDR=https://vault.maersk-digital.net`<br/>
 `vault login -method=oidc`
 
 This will prompt you to `vault.maersk-digital.net/ui/vault/secrets` where you must
