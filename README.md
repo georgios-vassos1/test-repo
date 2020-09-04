@@ -1,21 +1,21 @@
 # Deploy application with secrets
 
-Consider reading carefully this post: https://maersk-analytics.atlassian.net/wiki/spaces/P/pages/813006876/Vault+access+and+manage+secrets
+First, read carefully [this post!](https://maersk-analytics.atlassian.net/wiki/spaces/P/pages/813006876/Vault+access+and+manage+secrets).
 
-Connect to vault.maersk-digital.net
+Connect to [vault.maersk-digital.net!](https://vault.maersk-digital.net)
 
-Sign in with OIDC provider; you can also do that through your cli tool 
-with vault login -method=oidc
+Sign in with *OIDC provider*; you can also do that through your cli tool 
+with the command: `vault login -method=oidc`
 
-This will prompt you to vault.maersk-digital.net/ui/vault/secrets where you must
-be able to see an option for every resource group that you are part of. If the
+This will prompt you to `vault.maersk-digital.net/ui/vault/secrets` where you must
+be able to see an entry for each resource group that you are a member of. If the 
 desired resource group does not appear you must request access from the admin. 
 
 All in all, you should be able to view a list of directories named after
-resourcegroupname-kv/
+`resourcegroupname-kv/`, e.g. `dsai-kv/`, etc.
 
-If you enter one such directory you will be able to see two subdirectories, one
-called kubernetes/ and the other readable/
+If you enter one such directory you will be able to see at least two subdirectories, one
+called `kubernetes/` and the other `readable/`.
 
 
 
